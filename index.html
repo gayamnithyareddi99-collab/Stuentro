@@ -228,7 +228,7 @@ document.addEventListener("click", function(e){
 
             <div class="home-buttons">
                 <a href="#contact" class="btn-primary">Request Demo</a>
-                <a href="#how-it-works" class="btn-outline">How It Works</a>
+                <a href="#how" class="btn-outline">How It Works</a>
             </div>
 
             <div class="home-trust">
@@ -2457,16 +2457,23 @@ faqItems.forEach(item=>{
 
 <script>
 function openMail(){
-    const subject = encodeURIComponent("Stuentro – Platform Inquiry");
+    const subject = encodeURIComponent("Stuentro – Hiring Verification Platform Inquiry");
+    
     const body = encodeURIComponent(
         "Hello Stuentro Team,%0D%0A%0D%0A" +
-        "We would like to learn more about your AI-assisted verification platform.%0D%0A%0D%0A" +
-        "Please share pricing and onboarding details.%0D%0A%0D%0A" +
-        "Best regards,"
+        "I hope you are doing well.%0D%0A%0D%0A" +
+        "We are interested in learning more about Stuentro’s AI-assisted authorship verification and proof-of-work hiring platform.%0D%0A%0D%0A" +
+        "Could you please share detailed information regarding:%0D%0A" +
+        "• Pricing plans%0D%0A" +
+        "• Onboarding process%0D%0A" +
+        "• Verification workflow%0D%0A" +
+        "• Integration options (if available)%0D%0A%0D%0A" +
+        "We look forward to understanding how Stuentro can support our hiring process.%0D%0A%0D%0A" +
+        "Best regards,%0D%0A"
     );
 
     window.location.href =
-        "mailto:contact@stuentro.com?subject=" + subject + "&body=" + body;
+        "mailto:stuentro@outlook.com?subject=" + subject + "&body=" + body;
 }
 </script>
 
@@ -2482,9 +2489,9 @@ function openMail(){
 
         <!-- CENTER -->
         <div class="footer-links">
-            <a href="#">Home</a>
-            <a href="#">Pricing</a>
-            <a href="#">FAQ</a>
+            <a href="#home">Home</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#faq">FAQ</a>
             <a href="#contact">Contact</a>
         </div>
 
