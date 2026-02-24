@@ -2458,18 +2458,14 @@ faqItems.forEach(item=>{
 <script>
 function openMail(){
     const subject = encodeURIComponent("Stuentro – Hiring Verification Platform Inquiry");
-    
+
     const body = encodeURIComponent(
-        "Hello Stuentro Team,%0D%0A%0D%0A" +
-        "I hope you are doing well.%0D%0A%0D%0A" +
-        "We are interested in learning more about Stuentro’s AI-assisted authorship verification and proof-of-work hiring platform.%0D%0A%0D%0A" +
-        "Could you please share detailed information regarding:%0D%0A" +
-        "• Pricing plans%0D%0A" +
-        "• Onboarding process%0D%0A" +
-        "• Verification workflow%0D%0A" +
-        "• Integration options (if available)%0D%0A%0D%0A" +
-        "We look forward to understanding how Stuentro can support our hiring process.%0D%0A%0D%0A" +
-        "Best regards,%0D%0A"
+        "Hello Stuentro Team,\n\n" +
+        "I hope you are doing well.\n\n" +
+        "We are interested in learning more about Stuentro’s AI-assisted authorship verification and proof-of-work hiring platform. " +
+        "Could you please share detailed information regarding your pricing plans, onboarding process, verification workflow, and any available integration options?\n\n" +
+        "We look forward to understanding how Stuentro can support and strengthen our hiring process.\n\n" +
+        "Best regards,"
     );
 
     window.location.href =
